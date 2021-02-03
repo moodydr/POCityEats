@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">POCityEats</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="not_empty">Must not be empty</string>
+    <string name="no_match">No match found</string>
+    <string name="restaurant_id">Restaurant ID</string>
+    <string name="restaurant_name">Restaurant Name</string>
+    <string name="record_updated">Record Updated</string>
+    <string name="restaurant_address">Restaurant Address</string>
+    <string name="restaurant_number">Restaurant Number</string>
+    <string name="restaurant_service">Restaurant Service</string>
+    <string name="restaurant_IG">Restaurant IG</string>
+    <string name="restaurant_Website">Restaurant Website</string>
+    <string name="welcome">Welcome</string>
+    <string name="restaurant_cuisine">Restaurant Cuisine</string>
+    <string name="title_activity_maps2">Map</string>
+    <string name="restaurant_lat">Restaurant Latitude</string>
+    <string name="resturant_long">Restaurant Longitude</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

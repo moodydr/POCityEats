@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.pocityeats.RestaurantDetails">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#FFFFFF"
+        android:paddingTop="10dp" >
+
+        <TextView
+            android:id="@+id/popup_name"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:textSize="30sp"
+            android:layout_marginStart="6dip"
+            android:text="Olive Garden"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/popup_address_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/popup_name"
+            android:text="Address:" />
+
+        <TextView
+            android:id="@+id/popup_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dip"
+            android:layout_toEndOf="@id/popup_address_header"
+            android:layout_below="@id/popup_name"
+            android:text="666 Hell Street"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/popup_service_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/popup_address"
+            android:text="Service:" />
+
+        <TextView
+            android:id="@+id/popup_service"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dip"
+            android:layout_toEndOf="@id/popup_service_header"
+            android:layout_below="@id/popup_address"
+            android:text="Takeout"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/popup_phone_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/popup_service_header"
+            android:text="Phone Number:" />
+
+        <TextView
+            android:id="@+id/popup_phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dip"
+            android:layout_below="@id/popup_service_header"
+            android:layout_toEndOf="@id/popup_phone_header"
+            android:text="123-456-7890"
+            android:textColor="#000000"/>
+
+
+        <TextView
+            android:id="@+id/popup_website_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/popup_phone_header"
+            android:text="Website:" />
+
+        <TextView
+            android:id="@+id/popup_website"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dip"
+            android:layout_below="@id/popup_phone_header"
+            android:layout_toEndOf="@id/popup_website_header"
+            android:text="https://www.northeastern.edu"
+            android:textColor="#000000"/>
+
+        <TextView
+            android:id="@+id/popup_instagram_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/popup_website_header"
+            android:text="Instagram:" />
+
+        <TextView
+            android:id="@+id/popup_instagram"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dip"
+            android:layout_below="@id/popup_website_header"
+            android:layout_toRightOf="@id/popup_instagram_header"
+            android:text="\@northeastern"
+            android:textColor="#000000"/>
+
+        <TextView
+
+            android:id="@+id/popup_cuisine_header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/popup_instagram_header"
+            android:text="Cuisine:" />
+
+        <TextView
+            android:id="@+id/popup_cuisine"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="6dip"
+            android:layout_below="@id/popup_instagram_header"
+            android:layout_toEndOf="@id/popup_cuisine_header"
+            android:text="'Italian'"
+            android:textColor="#000000"/>
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

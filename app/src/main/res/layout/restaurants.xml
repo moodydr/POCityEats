@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/index"-->
+    <!--        android:text="1"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_weight=".10"-->
+    <!--        android:layout_height="wrap_content" />-->
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".60"
+            android:drawableTint="#652222"
+            android:text="Burke &amp; Black"
+            android:textColor="#000000" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/number"-->
+    <!--        android:text="(415) 723-1955"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_weight=".50"-->
+    <!--        android:layout_height="wrap_content" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/address"-->
+    <!--        android:text="1145 Hayes St #12, San Francisco, CA 94117"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_weight=".50"-->
+    <!--        android:layout_height="wrap_content" />-->
+
+        <TextView
+            android:id="@+id/service"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".20"
+            android:text="Delivery"
+            android:textColor="#000000" />
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/ig"-->
+    <!--        android:text="/@burkeandblack"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_weight=".50"-->
+    <!--        android:layout_height="wrap_content" />-->
+
+    <!--    <TextView-->
+    <!--        android:id="@+id/website"-->
+    <!--        android:text="https://burkeandblack.com/"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_weight=".50"-->
+    <!--        android:layout_height="wrap_content" />-->
+
+        <TextView
+            android:id="@+id/cuisine"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".20"
+            android:text="Californian"
+            android:textColor="#000000" />
+
+    </LinearLayout>
+</RelativeLayout>
