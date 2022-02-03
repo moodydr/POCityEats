@@ -5,7 +5,7 @@ Users can search through a list of restaurants or find restaurants nearby on a m
 
 Submitted by: Mac Moody & Ely Lam
 
-Time spent: 6 hours in total
+Time spent: 12 hours in total
 
 ## Search Functionality
 
